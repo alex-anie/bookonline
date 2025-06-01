@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookonline - get best online books</title>
+     <link href="/dist/styles.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
+<body class="">
     <?php require("../views/layout/navbar.php") ?>
-    <?php require("../views/layout/footer.php") ?>
     <?php require("../views/home.php") ?>
+    <?php require("../views/layout/footer.php") ?>
 </body>
 </html>
