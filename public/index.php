@@ -8,8 +8,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body class="">
-    <?php require("../views/layout/navbar.php") ?>
-    <?php require("../views/home.php") ?>
-    <?php require("../views/layout/footer.php") ?>
+    <?php require("../router.php") ?>
 </body>
 </html>
