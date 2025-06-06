@@ -9,6 +9,8 @@ if($uri === '/' || $uri === '/home'){
     require 'views/dashboard/index.php';
 }elseif($uri === '/authors'){
     require 'views/authors.php';
+}elseif($uri === '/about'){
+    require 'views/about.php';
 } else {
     http_response_code(404);
     require 'views/404.php';

@@ -1,6 +1,5 @@
 <?php 
 
-use Core\Database;
 
 function dd($value){
     echo"<pre>";
@@ -8,3 +7,6 @@ function dd($value){
     echo "</pre>";
 }
 
+function activeClass($path){
+    return  $_SERVER['REQUEST_URI'] === $path;
+}

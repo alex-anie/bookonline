@@ -1,7 +1,9 @@
 <?php
 
-// require '../Core/Database.php';
+// require_once '../Core/functions.php';
 
-// $config = require '../config.php';
+$server = $_SERVER['REQUEST_URI'];
+// $request = $_REQUEST;
 
-// dd($config);
+// dd($server);
+// dd($request);
