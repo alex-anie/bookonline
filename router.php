@@ -7,7 +7,9 @@ if($uri === '/' || $uri === '/home'){
 }elseif ($uri === '/book'){
     require 'controllers/dashboard.controller.php';
     require 'views/dashboard/index.php';
-}else {
+}elseif($uri === '/authors'){
+    require 'views/authors.php';
+} else {
     http_response_code(404);
     require 'views/404.php';
 }

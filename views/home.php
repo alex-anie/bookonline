@@ -11,7 +11,9 @@
     <h2 class="font-serif relative text-3xl">A list of all our 
         <span class="relative before:absolute before:content-[''] before:h-full before:-inset-1 before:bg-blue-800 before:-skew-y-8 before:block before:z-[-1] before:text-white">
             <span class="text-white font-black"> free </span>
-    </span> eBooks</h2>
+    </span> 
+    eBooks
+</h2>
 
     <article>
         <section class="grid grid-cols-3 gap-4 my-[1em]">
